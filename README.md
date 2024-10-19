@@ -1,1 +1,1 @@
-# Statistical-Process-Control
+SPC (Statiscal Process Control) prototype.
