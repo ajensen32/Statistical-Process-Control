@@ -2,7 +2,7 @@
 
 <h2>Overview</h2>
 <p>
-  This project implements the backend logic for the SPC Measurement System. The backend allows users to register, log in, log out, and submit measurements, while ensuring secure and seamless communication between the frontend and backend.
+  This project implements the backend logic for the SPC Measurement System. The backend allows users to register, log in, log out, and submit measurements.
 </p>
 
 <h2>Technologies Used</h2>
