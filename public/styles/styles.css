@@ -1,0 +1,172 @@
+html, body {
+    font-family: 'Arial', sans-serif;
+    background: #f7f9fc;
+    color: #333;
+}
+
+.bar-container {
+    /* border: 1px solid black; */
+    /* border-bottom: 0px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    height: 300px;
+    margin: 20px auto;
+}
+.point{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 22;
+}
+.bar {
+    height: 50px;
+    width: 100%;
+    /* border: .5px solid black; */
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.lightbulb {
+    position: absolute;
+    right: 0px;
+    /* margin-right: auto; */
+    font-size: 30px;;
+    background-color: red;
+}
+
+#register-section, #login-section, #user-info {
+    display: none;
+}
+
+#register-section.active, 
+#login-section.active {
+    display: block !important;
+}
+
+#user-info.active {
+    display: block !important;
+}
+
+
+
+/*register, logout, login section UI*/
+
+#shadow-host-companion{
+    display: none;
+    visibility: hidden;
+}
+
+#content {
+    width: 400px;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1.8rem;
+}
+
+/* Form Section Styling */
+section, #user-info {
+    margin-top: 1rem;
+    padding: 1.5rem 1.2rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin: 0.8rem 0 0.3rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    width: calc(100% - 2rem);
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+button:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+}
+
+/* Welcome Message */
+#username-display {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Utility Styling */
+.hidden {
+    display: none !important;
+}
+
+.alert {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+footer {
+    margin-top: 2rem;
+    color: #666;
+    font-size: 0.8rem;
+}
