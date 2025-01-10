@@ -121,5 +121,5 @@ Statistical-Process-Control/
 
 
 <h2>Contact</h2>
-<p>For any questions or concern, feel free to reach out at jensenalex3022@gmail.com.</p>
+<p>If you have any questions, feel free to reach out at jensenalex3022@gmail.com.</p>
 
